@@ -1,0 +1,65 @@
+.eleven{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .main-box{
+        width: 90%;
+        height: 200px;
+        border-bottom: 1px solid grey;
+
+        .titleh1{
+            width: 100%;
+            height: 70px;
+
+            h1{
+                text-align: center;
+                text-align: center;
+                font-size: 56px;
+                font-weight: 200;
+                color: #25272B;
+                line-height: 1;
+                letter-spacing: -3px;
+                font-family: inherit;
+            }
+        }
+
+        .p1{
+            width: 100%;
+            height: 50px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .p2{
+            width: 100%;
+            height: 80px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            p{
+                border: 1px solid rgba(14, 176, 241, 0.762);
+                width: 10%;
+                height: 40px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                background-color: rgba(14, 176, 241, 0.762);
+                cursor: pointer;
+                &:hover{
+                    background-color: rgba(39, 110, 138, 0.762);
+                }
+            }
+
+
+            a{
+                text-decoration: none;
+                color: white;
+            }
+        }
+    }
+}

@@ -1,0 +1,41 @@
+.thirteen{
+    width: 100%;
+    height: 350px;
+    background-image: url('imgg/sec13photo.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .carousel{
+        width: 100%;
+        height: 200px;
+
+        .carousel-item{
+            text-align: center;
+
+            h1{
+                font-size: 49px;
+                font-weight: 200;
+                color: #fff;
+                line-height: 1.2;
+                letter-spacing: -2px;
+            }
+
+            p{
+                color: #fff;
+                text-shadow: 0 1px 1px rgb(0 0 0 / 50%);
+                line-height: 1.2;
+            }
+
+            a{
+                text-decoration: none;
+                color: white;
+                border: 1px solid purple;
+                background-color: purple;
+            }
+        }
+    }
+}

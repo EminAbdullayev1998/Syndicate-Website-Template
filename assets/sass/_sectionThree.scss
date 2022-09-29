@@ -1,0 +1,78 @@
+.rainbow{
+    width: 100%;
+    height: 6px;
+    background-image: -webkit-linear-gradient(left, #E75239 0%,#E75239 12.5%,#FF961C 12.5%,#FF961C 25%,#FFCC27 25%,#FFCC27 37.5%,#FCE62F 37.5%,#FCE62F 50%,#CDE35B 50%,#CDE35B 62.5%,#82CC33 62.5%,#82CC33 75%,#41BECE 75%,#41BECE 87.5%,#049CDB 87.5%,#049CDB 100%);
+}
+
+.three{
+    width: 100%;
+    height: 270px;
+    background-color: grey;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #25272B;
+
+    .customers{
+        width: 100%;
+        height: 130px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        .logo1{
+            width: 15%;
+            height: 130px;
+            cursor: pointer;
+            &:hover{
+                filter: blur(0.5px);
+            }
+                
+        }
+
+        .logo2{
+            width: 15%;
+            height: 130px;
+            cursor: pointer;
+            &:hover{
+                filter: blur(0.5px);
+            }
+        }
+
+        .logo3{
+            width: 15%;
+            height: 130px;
+            cursor: pointer;
+            &:hover{
+                filter: blur(0.5px);
+            }
+        }
+
+        .logo4{
+            width: 15%;
+            height: 130px;
+            cursor: pointer;
+            &:hover{
+                filter: blur(0.5px);
+            }
+        }
+
+        .logo5{
+            width: 15%;
+            height: 130px;
+            cursor: pointer;
+            &:hover{
+                filter: blur(0.5px);
+            }
+        }
+
+        .logo6{
+            width: 15%;
+            height: 130px;
+            cursor: pointer;
+            &:hover{
+                filter: blur(0.5px);
+            }
+        }
+    }
+}

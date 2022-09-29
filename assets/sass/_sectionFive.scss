@@ -1,0 +1,34 @@
+.five{
+    width: 100%;
+    height: 500px;
+    background-image: url('imgg/section5photo.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+
+    .sec5text{
+        width: 100%;
+        height: 50px;
+        text-align: center;
+        position: absolute;
+        top: 150px;
+
+        h1{
+            color: white;
+            font-size: 110px;
+            font-weight: 400;
+            text-shadow: 0 1px 1px rgb(0 0 0 / 50%);
+            letter-spacing: -10px;
+            line-height: 0.01em;
+            font-family: inherit;
+        }
+    }
+
+    .carousel{
+        width: 60%;
+        height: 280px;
+        position: absolute;
+        top: 215px;
+        left: 300px;
+    }
+}

@@ -1,0 +1,136 @@
+.six{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .container{
+        width: 100%;
+        height: 400px;
+        display: flex;
+        border-bottom: 1px solid grey;
+
+        .div1{
+            width: 50%;
+            height: 400px;
+            .div1h1{
+                width: 100%;
+                height: 133px;
+                display: flex;
+                align-items: center;
+
+                h1{
+                    font-size: 56px;
+                    font-weight: 200;
+                    color: #25272B;
+                    line-height: 1;
+                    letter-spacing: -3px;
+                    font-family: inherit;
+                }
+            }
+
+            .div1p{
+                width: 100%;
+                height: 267px;
+
+                .part1{
+                    font-size: 25px;
+                    font-weight: 400;
+                    line-height: 1.5;
+                }
+
+                .part2{
+                    font-size: 99%;
+                }
+            }
+        }
+
+        .div2{
+            width: 50%;
+            height: 400px;
+
+            .div2box1{
+                width: 100%;
+                height: 200px;
+
+                .box1h{
+                    width: 100%;
+                    height: 100px;
+
+                    h3{
+                        font-size: 21px;
+                        font-weight: 200;
+                        line-height: 1;
+                        font-family: inherit;
+                    }
+
+                    h5{
+                        color: #bbbdc0;
+                        font-size: 13px;
+                        font-weight: 200;
+                        text-transform: uppercase;
+                        letter-spacing: 1px;
+                        font-family: inherit;
+                    }
+
+                    .fa-solid{
+                        color: skyblue;
+                        font-size: 50px;
+                    }
+                }
+
+                .box1p{
+                    width: 100%;
+                    height: 100px;
+
+                    p{
+                        font-size: 85%;
+                        line-height: 1.2;
+                    }
+                }
+            }
+
+            .div2box2{
+                width: 100%;
+                height: 200px;
+
+                .box2h{
+                    width: 100%;
+                    height: 100px;
+
+                    h3{
+                        font-size: 21px;
+                        font-weight: 200;
+                        line-height: 1;
+                        font-family: inherit;
+                    }
+
+                    h5{
+                        color: #bbbdc0;
+                        font-size: 13px;
+                        font-weight: 200;
+                        text-transform: uppercase;
+                        letter-spacing: 1px;
+                        font-family: inherit;
+                    }
+
+                    .fa-solid{
+                        color: skyblue;
+                        font-size: 50px;
+                    }
+                }
+
+                .box2p{
+                    width: 100%;
+                    height: 100px;
+
+                    p{
+                        font-size: 95%;
+                        line-height: 1.2;
+                    }
+                }
+            }
+        }
+    }
+}

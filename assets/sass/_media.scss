@@ -1,0 +1,79 @@
+@media only screen and (max-width:600px){
+    #navbarNav{
+        display: none;
+    }
+}
+
+
+
+@media only screen and (max-width:600px){
+    .sixteen{
+        height: 1500px;
+    }
+    .contactus{
+        width: 100%;
+        .main-box{
+            .boxtitle{
+                 .text{
+                    width: 100%;
+                 }
+            }
+
+            .form{
+                flex-direction: column;
+
+                .input1{
+                    width: 100%;
+                }
+
+                .input2{
+                    width: 100%;
+                }
+
+                .input3{
+                    width: 100%;
+                }
+
+                .input4{
+                    width: 100%;
+                }
+            }
+        }
+    }
+}
+
+
+
+
+
+@media only screen and (max-width:600px){
+    .adress{
+        height: 1500px;
+        .main-box{
+            flex-direction: column;
+
+            .adress1{
+                width: 100%;
+            }
+
+            .adress2{
+                width: 100%;
+            }
+
+            .adress3{
+                width: 100%;
+            }
+
+            .adress4{
+                width: 100%;
+            }
+        }
+    }
+}
+
+
+
+
+
+
+

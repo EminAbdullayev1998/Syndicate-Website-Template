@@ -1,0 +1,66 @@
+footer{
+    width: 100%;
+    height: 200px;
+    background-color: gray;
+
+    .hero{
+        width: 100%;
+        height: 100px;
+        display: flex;
+        justify-content: space-between;
+
+        .company{
+              width: 40%;
+              height: 100px;
+              display: flex;
+              align-items: center;
+              justify-content: center;
+        }
+
+        .links{
+            width: 40%;
+            height: 100px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            p{
+                .fa-facebook{
+                    font-size: 30px;
+                    color: blue;
+                    transition: all 1.5s;
+                    &:hover{
+                        transform: rotate(360deg);
+                    }
+                }
+
+                .fa-twitter-square{
+                    font-size: 30px;
+                    color: rgb(99, 187, 222);
+                    transition: all 1.5s;
+                    &:hover{
+                        transform: rotate(360deg);
+                    }
+                }
+
+                .fa-instagram-square{
+                    font-size: 30px;
+                    color: rgb(174, 65, 101);
+                    transition: all 1.5s;
+                    &:hover{
+                        transform: rotate(360deg);
+                    }
+                }
+
+                .fa-google-plus-square{
+                     font-size: 30px;
+                     color: red;
+                     transition: all 1.5s;
+                     &:hover{
+                         transform: rotate(360deg);
+                     }
+                }
+            }
+        }
+    }
+}
